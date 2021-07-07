@@ -42,7 +42,7 @@ const QueenFinder = () =>
                 {
                     drawCards(response.deck_id);
                 }
-            }, 100);
+            }, 1000);
         })
         .catch((e) =>
         {
